@@ -1,0 +1,39 @@
+<!doctype html>
+<html class="no-js" lang="en" ng-app="fruitApp">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Angular Fruit App</title>
+
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="vendor/css/bootstrap-responsive.min.css">
+    <link rel="stylesheet" type="text/css" href="app/css/main.css">
+
+    <script src="vendor/js/angular.js"></script>
+    <script src="vendor/js/angular-route.js"></script>
+    <script src="vendor/js/angular-resource.min.js"></script>
+    <script src="app/js/app.js"></script>
+    <script src="app/js/controllers.js"></script>
+    <script src="app/js/services.js"></script>
+
+  </head>
+  <body>
+    <div class="container" ng-controller="AppCtrl">
+      <h1>Apples</h1>
+
+      <ul class="nav nav-pills">
+        <li ng-class="topApplesActive">
+          <a href="#/apples">Varieties</a>
+        </li>
+        <li ng-class="topHealthActive">
+          <a href="#/health">Health</a>
+        </li>
+        <li ng-class="topRecipesActive">
+          <a href="#/recipes">Recipes</a>
+        </li>
+      </ul>
+
+      <div ng-view></div>
+    </div>
+  </body>
+</html>

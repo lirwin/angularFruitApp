@@ -1,0 +1,31 @@
+[
+	{
+		"title": "Apple Blueberry Shortcake Pie",
+		"link":  "http://www.taste.com.au/recipes/25248/apple+and+blueberry+shortcake+pie?ref=collections,apple-recipes",
+		"description": "This shortcake pie is full of surprises - dig through a golden crust to apples and blueberries, oven-warmed and oozing sweet juice"
+	},
+	{
+		"title":  "Rum and Raisin Baked Apples",
+        "link":  "http://www.taste.com.au/recipes/27364/rum+raisin+baked+apples?ref=collections,apple-recipes",		
+        "description": "Glowing Jazz apples are the star ingredient of this winter warming dessert"
+
+	},
+	{
+		"title":  "Oat Apple Crisp",
+        "link":  "http://allrecipes.com/recipe/apple-crisp-with-oat-topping/",
+        "description": "This is the best dessert for the early fall when the sweet and firm apples are just in season"
+
+	},
+	{
+		"title": "Dutch Apple Cake",
+        "link":  "http://allrecipes.com/recipe/dutch-apple-cake/",
+        "description": "This is another great cake for the fall. When apples are plentiful and delicious there are so many ways to thank mother nature for its bounty"
+
+	},
+	{
+		"title": "Apple Pie",
+        "link":  "http://www.momswhothink.com/pie-recipes/apple-pie-recipe.html",
+        "description": "This is the best recipe for apple pie for those who want an old-fashioned, perfect tasting apple pie with a flaky crust"
+
+	}
+]

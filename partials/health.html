@@ -1,0 +1,18 @@
+<div class="span8">
+	<h3>Apple Health Benefits</h3>
+	<table class="table">
+	  <thead>
+	    <tr>
+	      <th>Benefit</th>
+	      <th>Description</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr ng-repeat="health in healths">
+			<td>{{health.title}}</td>
+			<td>{{health.description}}</td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>
+<!-- div class="span5" ng-include src="sidebarURL"></div -->

@@ -1,0 +1,32 @@
+[
+	{
+		"name": "Golden Delicious",
+		"year":  1914,
+		"qualities": "Medium-to-large pale yellow or yellow-green apple that is mild and sweet",
+		"description": "Grown in most regions across the country, Golden Delicious is the second-most grown after Red Delicious, to which it is not at all related." 			
+	},
+	{
+		"name":  "Gala",
+		"year": 1934,
+		"qualities": "Thin, red-orange skin — actually red striping over gold — encases aromatic, semisweet, yellowish white flesh",
+		"description": 	"One of the most widely-grown apple varieties, with a sweet pleasant flavor, and good keeping qualities."
+	},
+	{
+		"name":  "Fuji",
+		"year": 1958,
+		"qualities": "Excellent for eating raw, adding to salads, and making into applesauce",
+		"description": 	"Developed in Japan, but an all-American cross of Red Delicious and Ralls Janet. A very attractive modern apple, crisp, sweet-flavored, and keeps well."
+	},
+	{
+		"name": "Pink Lady",
+		"year": 1973,
+		"qualities": "Ellipsoid shape, distinctive blush mixed with a green background, tart taste",
+		"description":  "One of the best-known modern apples, Pink Lady is actually a trademark and the variety is more correctly known as Cripps Pink."
+	},
+	{
+		"name": "Honeycrisp",
+		"year": 1960,
+		"qualities": "Its sweetness, firmness, and tartness make it an ideal apple for eating raw",
+		"description":  "Sometimes marketed as Honey Crisp, this is a crisp, and predominantly sweet, modern variety from the USA. It was developed by the University of Minnesota specifically for growers in cold climates, and is one of the most cold-hardy of apple varieties."
+	}
+]

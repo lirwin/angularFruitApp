@@ -1,0 +1,17 @@
+<div class="span8">
+	<h3>Popular Apple Recipes</h3>
+	<table class="table">
+	  <thead>
+	    <tr>
+	      <th>Title</th>
+	      <th>Description</th>
+	    </tr>
+	  </thead>
+	  <tbody>
+	    <tr ng-repeat="recipe in recipes">
+			<td><a href="{{recipe.link}}">{{recipe.title}}</a></td>
+			<td>{{recipe.description}}&hellip;<a href="{{recipe.link}}">More</a></td>
+	    </tr>
+	  </tbody>
+	</table>
+</div>

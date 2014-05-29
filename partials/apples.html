@@ -1,0 +1,43 @@
+<div class="span12">
+	<h3>Popular Varieties</h3>
+
+    <div class="container-fluid">
+		<div class="span4">
+		    <!--Sidebar content-->
+		     
+		    Search: <input ng-model="query">
+		    <br />
+		    Sort by:
+		    <select ng-model="orderProp">
+		    <option value="name">Alphabetical</option>
+		    <option value="-year">Year Introduced</option>
+		    </select>
+	     
+	    </div>
+	    <div class="span8">
+	    <!--Body content-->
+			<table class="table">
+			  <thead>
+			    <tr>
+			      <th>Name</th>
+			      <th>Year Introduced</th>
+			      <th>Characteristics</th>
+			    </tr>
+			  </thead>
+			  <tbody>
+			    <tr ng-repeat="apple in apples | filter:query | orderBy:orderProp">
+					<td>
+						<a href="#/apples/{{apple.name}}" class=" apple apple{{$index % 6 + 1}} pull-left"></a>
+						<a href="#/apples/{{apple.name}}">{{apple.name}}</a>
+						<div class="clearfix"></div>
+					</td>
+					<td>{{apple.year}}</td>
+					<td>{{apple.qualities}}</td>
+			    </tr>
+			  </tbody>
+			</table> 
+		</div> 
+		    
+    </div>
+</div>
+<!-- div class="span5" ng-include src="sidebarURL"></div -->
